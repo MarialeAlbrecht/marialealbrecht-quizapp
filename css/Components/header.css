@@ -1,10 +1,12 @@
-header {
-  position: sticky;
-  top: 0;
-  text-align: center;
-  padding: 20px;
-  border-bottom: 4px solid black;
-  border-color: black;
-  background-color: antiquewhite;
-  z-index: 10;
+@media (max-width: 600px) {
+  header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid black;
+    border-color: black;
+    background-color: antiquewhite;
+    z-index: 10;
+  }
 }

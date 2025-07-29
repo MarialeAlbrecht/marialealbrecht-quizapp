@@ -1,21 +1,23 @@
-.footer1 {
-  position: sticky;
-  bottom: 0;
-  border-top: 3px solid black;
-  display: flex;
-  justify-content: space-around;
-  background-color: antiquewhite;
-  z-index: 10;
-}
-.footer-icon {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  gap: 8px;
-  border: none;
-  outline: none;
-}
-img {
-  background: transparent;
-  border: none;
+@media (max-width: 600px) {
+  .footer1 {
+    position: sticky;
+    bottom: 0;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    z-index: 10;
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 8px;
+    border: none;
+    outline: none;
+  }
+  img {
+    background: transparent;
+    border: none;
+  }
 }
