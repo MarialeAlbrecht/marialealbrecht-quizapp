@@ -1,19 +1,13 @@
-footer {
+.footer1 {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  border-top: 1px solid #ccc;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-  z-index: 10;
+  background-color: lightgray;
+  border-color: black;
+  border-top: 3px solid black;
+  display: inline-block;
 }
-.footer__icon {
-  width: 32px;
-  height: 32px;
-  opacity: 0.6;
-  cursor: pointer;
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
 }
