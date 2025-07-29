@@ -1,8 +1,10 @@
 .footer1 {
   position: sticky;
+  bottom: 0;
   border-top: 3px solid black;
   display: flex;
   justify-content: space-around;
+  background-color: antiquewhite;
   z-index: 10;
 }
 .footer-icon {
