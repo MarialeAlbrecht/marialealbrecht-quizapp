@@ -18,3 +18,38 @@
   border: 1px solid #2e016d;
   background-color: #3f0097;
 }
+.show-answer {
+  display: inline-block;
+  align-self: center;
+  padding: 6px 12px;
+  border: 2px solid black;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+.hide-answer {
+  display: inline-block;
+  align-self: center;
+  padding: 6px 12px;
+  border: 2px solid black;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.tag {
+  background-color: lightgray;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border-color: black;
+  border: 2px solid black;
+  font-size: small;
+  display: inline-block;
+}
