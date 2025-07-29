@@ -10,6 +10,11 @@
   flex: 1 1 30%;
   background-color: blue;
 }
+.question {
+  text-align: center;
+  font-size: large;
+}
+
 .bookmark {
   position: absolute;
   top: -5%;
@@ -18,6 +23,13 @@
   border: 1px solid #2e016d;
   background-color: #3f0097;
 }
+
+.Answer {
+  font-size: large;
+  color: black;
+  display: none;
+}
+
 .show-answer {
   display: inline-block;
   align-self: center;
@@ -34,6 +46,10 @@
   border: 2px solid black;
   font-size: medium;
   box-sizing: border-box;
+}
+
+.hide-answer {
+  display: none;
 }
 
 .tags {
