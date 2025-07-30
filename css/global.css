@@ -1,0 +1,19 @@
+:root{
+    --light-blue: #ADD8E6;
+    --white-color: #FFFF;
+    --lila-color: #FF6B6B;
+    --antique-color: #faebd7;
+}
+body {
+    background-color: var(--light-blue);
+}
+.cards {
+   background-color;: var(--white-color)
+}
+.tag{
+    background-color: var(--lila-color);
+    border-color: var(--lila-color);
+}
+header{
+    background-color: var(--antique-color);
+}
