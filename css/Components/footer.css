@@ -16,14 +16,6 @@
   z-index: 10;
 }
 .footer-icon {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  gap: 8px;
-  border: none;
-  outline: none;
-}
-img {
-  background: transparent;
-  border: none;
+  width: 30px;
+  height: 30px;
 }
