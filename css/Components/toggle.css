@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* title left, icon right */
+  width: 100%; /* take full width of parent */
+  padding: 0.5rem 1rem; /* optional spacing */
+  margin: 0; /* avoid unexpected gaps from parent */
+}
+
+/* tidy up the title */
+.toggle-title {
+  margin-left: -15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* style the button (keeps it clickable & accessible) */
+.toggle-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+/* icon sizing */
+.toggle_icon {
+  width: 40px; /* adjust as needed */
+  height: auto;
+  display: block;
+  margin-right: 50px;
+}

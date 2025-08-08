@@ -2,3 +2,5 @@
 @import "./global.css";
 @import "./Components/header.css";
 @import "./Components/footer.css";
+@import "./Components/counter.css";
+@import "./Components/toggle.css";

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+}
+.counter-container {
+  display: flex;
+  justify-content: center; /* center row horizontally */
+  align-items: center; /* center vertically (optional) */
+  gap: 20px; /* space between counters */
+  margin-top: 20px; /* push down from top */
+}
+
+.counter {
+  width: 100px;
+  height: 60px;
+  background-color: #faf0ca;
+  border: 3px solid #0d3b66;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* icon left, number right */
+  align-items: center;
+
+  padding: 0 16px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.counter_icon {
+  width: 32px;
+  height: 32px;
+}
+
+.counter_number {
+  text-align: right;
+  color: #0d3b66;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.toggle {
+  display: flex;
+  flex-direction: row;
+}
+.toggle_icon {
+}
