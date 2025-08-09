@@ -32,6 +32,8 @@
 }
 
 .counter_icon {
+  filter: invert(19%) sepia(38%) saturate(1613%) hue-rotate(179deg)
+    brightness(93%) contrast(94%);
   width: 32px;
   height: 32px;
 }
@@ -44,4 +46,8 @@
 .toggle {
   display: flex;
   flex-direction: row;
+}
+.toggle_icon {
+  filter: invert(19%) sepia(38%) saturate(1613%) hue-rotate(179deg)
+    brightness(93%) contrast(94%);
 }

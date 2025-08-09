@@ -16,6 +16,14 @@
   z-index: 10;
 }
 .footer-icon {
+  filter: invert(96%) sepia(9%) saturate(469%) hue-rotate(35deg)
+    brightness(102%) contrast(95%);
+  width: 30px;
+  height: 30px;
+}
+.footer-icon:hover {
+  filter: invert(49%) sepia(82%) saturate(4344%) hue-rotate(340deg)
+    brightness(98%) contrast(104%);
   width: 30px;
   height: 30px;
 }
