@@ -7,8 +7,10 @@
 @media (max-width: 600px) {
 }
 .footer1 {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: = 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   background-color: #0d3b66;

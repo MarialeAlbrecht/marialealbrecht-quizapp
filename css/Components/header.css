@@ -5,16 +5,18 @@
 }
 
 @media (max-width: 600px) {
+  body {
+    padding-top: 120px;
+  }
 }
 header {
-  position: sticky;
+  position: fixed;
   top: 0%;
   left: 0;
   right: 0;
   width: 100%;
   text-align: center;
   padding: 40px;
-  border-color: black;
   background-color: var(--antique-color);
   box-sizing: border-box;
   z-index: 10;

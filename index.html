@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz app</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header class="header-box">
@@ -16,13 +16,13 @@
       <section class="container">
         <section class="card">
           <h2 class="question">1. Question: What does CSS stand for?</h2>
-            <button id="bookmarkBtn">
+            <button data-js="bookmarkBtn" id="bookmarkBtn">
               <img src="./assets/bookmark1.svg" alt="bookmark" class="bookmark" />
             </button>
         
           <p class="Answer">Answer: Cascading Style Sheets</p>
           <button class="show-answer">Show Answer</button>
-          <section class="tags">
+          <section data-js="tags" class="tags">
             <span class="tag">html</span>
             <span class="tag">css</span>
             <span class="tag">flexbox</span>
@@ -98,6 +98,9 @@
     </a>
     <a href="bookmark.html">
     <img class="footer-icon" src="./assets/bookmark.svg" alt="bookmark" />
+    </a>
+    <a href="form.html">
+     <img class="footer-icon" src="./assets/plus.svg" alt="form" />
     </a>
     <a href="Profile.html">
      <img class="footer-icon" src="./assets/profile.svg" alt="profile" />

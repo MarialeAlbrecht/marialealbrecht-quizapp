@@ -11,8 +11,6 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 .card {
   position: relative;
@@ -35,14 +33,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 #bookmarkBtn {
-  position: fixed;
-  border: none;
-  padding: 0;
-  cursor: pointer;
   position: absolute;
-  top: -8%;
-  left: 88%;
-  z-index: 1;
+  top: -10px;
+  right: 40px;
+  border: none;
+  z-index: 12;
 }
 
 .bookmark {
@@ -52,14 +47,9 @@
   z-index: 1;
   height: 30px;
 }
-.bookmark:hover {
-  position: absolute;
-  top: -5%;
-  left: 90%;
-  z-index: 1;
-  height: 30px;
-  filter: invert(19%) sepia(38%) saturate(1613%) hue-rotate(179deg)
-    brightness(93%) contrast(94%);
+.bookmark-active {
+  filter: invert(39%) sepia(87%) saturate(5751%) hue-rotate(345deg)
+    brightness(97%) contrast(102%);
 }
 
 .Answer {
