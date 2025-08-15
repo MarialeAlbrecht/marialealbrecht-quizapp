@@ -16,10 +16,10 @@ document.querySelectorAll(".card").forEach((card) => {
     });
   }
 });
-const bookmarkBtn = document.querySelector('[data-js="bookmarkBtn"]');
 
-function bookmarked(event) {
-  const img = event.currentTarget.querySelector("img");
-  img.classList.toggle("bookmark-active");
-}
-bookmarkBtn.addEventListener("click", bookmarked);
+document.querySelectorAll('[data-js="bookmarkBtn"]').forEach((button) => {
+  button.addEventListener("click", (event) => {
+    const img = event.currentTarget.querySelector("img");
+    img.classList.toggle("bookmark-active");
+  });
+});
